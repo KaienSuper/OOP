@@ -8,8 +8,6 @@ class ReversedList:
     def __getitem__(self,index):
         return self.lst[-1-index]
 
-# Ваш код
-
 rl = ReversedList([10, 20, 30])
 for i in range(len(rl)):
     print(rl[i])
